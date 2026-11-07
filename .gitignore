@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and pytest cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local IDE configuration
+.idea/
+.vscode/
+
+# Local secrets; keep the shareable configuration template
+.env
+.env.*
+!.env.example
